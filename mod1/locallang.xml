@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;tools_txpagemanagerM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mod_title">Pagemanager</label>
+			<label index="function1">Pagetypes</label>
+			<label index="pages_option1">Manage Presets</label>
+			<label index="pages_option2">Manage Sets</label>
+			<label index="pages_option3">Manage Relations</label>
+			<label index="pages_option4">Manage Pagetypes</label>
+			<label index="manage_presets">Manage Presets</label>
+			<label index="manage_sets">Manage Sets</label>
+			<label index="manage_relations">Manage Relations</label>
+			<label index="manage_pagetypes">Manage Pagetypes</label>
+			<label index="title">Title</label>
+			<label index="deleted">All settings deleted!</label>
+			<label index="title_desc">(Enter a title string or something like LLL:[path to lang file]:[index in lang file])</label>
+			<label index="type">Type</label>
+			<label index="no_sets">No sets found. Please create a set first, to be able to manage relations.</label>
+			<label index="manage_relations_header">What you see is an overview of your created sets. You can enter a page id or a comma separated list of page ids in the input field next to the set title. The settings made in this set will be applied for this page ids and their subpages.</label>
+			<label index="manage_presets_header">In this section you can create presets, in which you define which fields are available and which table are allowed. You can relate these presets to pagetypes later in the section "Manage Sets".</label>
+			<label index="manage_sets_header">Create custom sets, defining which pagetypes are visible and which presets the pagetypes use. You can relate these sets to pages in your pagetree in the section "Manage relations".</label>
+			<label index="manage_pagetypes_header">Create your own pagetypes and define basic settings here. These pagetypes are only useful in combination with a preset. You can set a preset for these pagetypes in the section "Manage sets".</label>
+			<label index="allowedTables">Allowed tables</label>
+			<label index="onlyAllowedTables">Only allowed tables</label>
+			<label index="yes">Yes</label>
+			<label index="no">No</label>
+			<label index="back">Back</label>
+			<label index="showitem">Showitem</label>
+			<label index="all">All</label>
+			<label index="none">None</label>
+			<label index="icon">Icon</label>
+			<label index="icon_desc">(Enter path of an icon file for the page type. The path should be relative to Typo3 root.)</label>
+			<label index="key">Key</label>
+			<label index="key_desc">(This is the doktype value of the page type. Enter an integer value.)</label>
+			<label index="save">Save</label>
+			<label index="hide">Hide</label>
+			<label index="d2t">Enable Dividers2Tabs</label>
+			<label index="d2t_label">Dividers2Tabs</label>
+			<label index="set">Set</label>
+			<label index="select_all">Select all</label>
+			<label index="deselect_all">Deselect all</label>
+			<label index="sys">Sys</label>
+			<label index="web">Web</label>
+			<label index="new_preset">Create new preset</label>
+			<label index="new_set">Create new set</label>
+			<label index="new_pagetype">Create new page type</label>
+			<label index="custom_code">Custom Code</label>
+			<label index="writeChanges">Write changes</label>
+			<label index="resetFile">Reset</label>
+			<label index="help">Help</label>
+			<label index="defaultPreset">(Default preset)</label>
+			<label index="defaultPagetype">(Default page type)</label>
+			<label index="howto">How to use pagemanager</label>
+			<label index="help_section1_header">Manage Presets</label>
+			<label index="help_section2_header">Manage Sets</label>
+			<label index="help_section3_header">Manage Relations</label>
+			<label index="help_section4_header">Manage Pagetypes</label>
+			<label index="help_section5_header">Write changes</label>
+			<label index="help_section1">
+				You can create reusable presets in which you define which database fields get shown in the backend edit form or which tables are allowed on a page using this preset.
+				You can assign this presets to a page type later.
+				
+				The settings of the default page types are shown too, but you are not allowed to edit them, only to view the settings.
+			</label>
+			<label index="help_section2">
+				In this section you can assign presets to all available page types. If you don't want a page type to be selectable, just choose to "hide" the page types in the dropdown box. 
+				Save your sets to relate them to a section in your pagetree in the section "Manage Relations".
+			</label>
+			<label index="help_section3">
+				Relate your defined sets to one or more sections in your pagetree. Just enter the ids separated by "," in the input field next to the set title.
+				Example:
+					You enter 5,10,22 in the input field of a previously created set "set1", then after writing the changes, the settings of set1 will be used for pages 5, 10 and 22 and subpages of these.
+				
+				If you don't enter anything, the set will not be used.
+			</label>
+			<label index="help_section4">
+				You can view the settings of the default page types or create your own custom page types. You can enter a label, a key and a path to an iconfile. To use custom multilanguage labels and icons is a bit tricky. 
+				Example:
+				-> Create a folder in fileadmin to store your custom icons and a language file for the page type labels.
+				-> Create a new page type in the backend module:
+					- Enter "LLL:fileadmin/[path to your folder]/langfile.php:[index]" for the label
+					- Enter a key (Key must be unique)
+					- Enter the path to the icon relative to Typo3 root
+			</label>
+			<label index="help_section5">
+				You can write your settings to file at any time by hitting the "Write changes" button at the upper left of the frame. The changes will be written to the ext_tables.php of pagemanager and the cache will be cleared. This button will only be visible, if at least one "set" was created.
+			</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="mod_title">Pagemanager</label>
+			<label index="function1">Seitentypen</label>
+			<label index="pages_option1">Vorlagen verwalten</label>
+			<label index="pages_option2">Sets verwalten</label>
+			<label index="pages_option3">Verbindungen verwalten</label>
+			<label index="pages_option4">Seitentypen verwalten</label>
+			<label index="manage_presets">Vorlagen verwalten</label>
+			<label index="manage_sets">Sets verwalten</label>
+			<label index="resetFile">Reset</label>
+			<label index="manage_relations">Verbindungen verwalten</label>
+			<label index="manage_pagetypes">Seitentypen verwalten</label>
+			<label index="title">Titel</label>
+			<label index="type">Typ</label>
+			<label index="allowedTables">Erlaubte Tabellen</label>
+			<label index="onlyAllowedTables">Nur erlaubte Tabellen</label>
+			<label index="yes">Ja</label>
+			<label index="deleted">Alle Einstellungen gelöscht!</label>
+			<label index="no">Nein</label>
+			<label index="back">Zurück</label>
+			<label index="showitem">Showitem</label>
+			<label index="all">Alle</label>
+			<label index="none">Keine</label>
+			<label index="icon">Icon</label>
+			<label index="key">Key</label>
+			<label index="save">Speichern</label>
+			<label index="hide">Ausblenden</label>
+			<label index="d2t">Dividers2Tabs einschalten</label>
+			<label index="d2t_label">Dividers2Tabs</label>
+			<label index="set">Set</label>
+			<label index="select_all">Alle auswählen</label>
+			<label index="deselect_all">Keine auswählen</label>
+			<label index="sys">Sys</label>
+			<label index="web">Web</label>
+			<label index="new_preset">Neue Vorlage erstellen</label>
+			<label index="new_set">Neues Set erstellen</label>
+			<label index="new_pagetype">Neuen Seitentyp erstellen</label>
+			<label index="custom_code">Eigener Code</label>
+			<label index="writeChanges">Änderungen schreiben</label>
+			<label index="help">Hilfe</label>
+			<label index="defaultPreset">(Standardvorlage)</label>
+			<label index="defaultPagetype">(Standardseitentyp)</label>
+			<label index="howto">Verwendung von pagemanager</label>
+			<label index="help_section1_header">Vorlagen verwalten</label>
+			<label index="help_section2_header">Sets verwalten</label>
+			<label index="help_section3_header">Verbindungen verwalten</label>
+			<label index="help_section4_header">Seitentypen verwalten</label>
+			<label index="help_section5_header">Änderungen schreiben</label>
+			<label index="help_section1">
+				Sie können wiederverwendbare Vorlagen anlegen, in denen sie festlegen, welche Felder im Backend Bearbeitungsformular der Seite angezeigt werden, oder welche Tabellen auf einer Seite erlaubt sind.
+				Diese Vorlagen können Sie später einem oder mehreren Seitentypen zuweisen.
+				
+				Die Einstellungen der Standardseitentypen werden auch angezeigt, Sie dürfen diese aber nicht verändern.
+			</label>
+			<label index="help_section2">
+				Hier können Sie die erstellten Vorlagen einem Seitentyp zuweisen. Wenn Sie wollen, dass ein Seitentyp nicht verfügbar ist, wählen Sie "Ausblenden" in der Dropdownbox aus.
+				
+				Speichern Sie Ihre Sets, um Sie im Abschnitt "Verbindungen verwalten" einer Sektion Ihres Seitenbaumes zuzuweisen.
+			</label>
+			<label index="help_section3">
+				Weisen Sie Ihre Sets einem oder mehreren Abschnitten Ihres Seitenbaums zu. Geben Sie dazu die Seiten-IDs ein und trennen Sie diese mit ",".
+				
+				Beispiel:
+					Sie geben 5,10,22 im Eingabefeld neben dem Settitel ein. Dies bewirkt, dass nachdem Sie gespeichert und die "Änderungen geschrieben" haben, dieses Set für alle Seiten gilt, die die IDs 5,10 oder 22 haben oder Unterseiten von diesen Seiten sind.
+					
+				Wenn Sie keine IDs eingeben, wird das Set nicht verwendet.
+			</label>
+			<label index="help_section4">
+				Sie können die Einstellungen der Standardseitentypen ansehen und neue Seitentypen anlegen.
+				Sie können für einen neuen Seitentyp eine Beschriftung, einen Key und den Pfad zu einem Icon angeben. Um mehrsprachige Beschriftungen anzugeben, können Sie den Pfad zu einer Übersetzungsdatei angeben.
+				
+				Beispiel:
+				-> Legen Sie im Fileadmin einen Ordner für Ihre Icons und Sprachdatei an.
+				-> Erstellen Sie mit pagemanager einen neuen Seitentyp:
+					- Geben Sie z.B. "LLL:fileadmin/[Pfad zu Ihrem Ordner]/langfile.php:[index]" für die Beschriftung ein.
+					- Geben Sie einen Key ein (Ein Key darf nur einmal existieren)
+					- Geben Sie den Pfad zum Icon mit einem vorangestellten "../" ein (z.B. ../fileadmin/[Pfad zu Ihrem Ordner]/gfx/icon.gif)
+			</label>
+			<label index="help_section5">
+				Damit Ihre Einstellungen wirksam werden müssen Sie "Änderungen speichern" klicken. Damit werden alle Einstellungen in die ext_tables.php der Extension geschrieben und der Cache geleert.
+			</label>
+		</languageKey>
+	</data>
+</T3locallang>

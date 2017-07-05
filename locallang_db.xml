@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'pagemanager'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_pagemanager_presets">Preset</label>
+			<label index="tx_pagemanager_presets.title">Title</label>
+			<label index="tx_pagemanager_presets.settings">Settings</label>
+			<label index="tx_pagemanager_sets">Set</label>
+			<label index="tx_pagemanager_preset2set">Preset2Set</label>
+			<label index="tx_pagemanager_preset2set.preset_id">Preset ID</label>
+			<label index="tx_pagemanager_preset2set.set_id">Set ID</label>
+			<label index="tx_pagemanager_preset2set.pagetype_id">Pagetype ID</label>
+			<label index="tx_pagemanager_pagetypes">Pagetype</label>
+			<label index="tx_pagemanager_pagetypes.title">Title</label>
+			<label index="tx_pagemanager_pagetypes.type_id">Type ID</label>
+		</languageKey>
+	</data>
+</T3locallang>
